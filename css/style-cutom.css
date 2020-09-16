@@ -958,7 +958,9 @@ section {
   .d-sm-none {
     display: none !important;
   }
-
+  .d-sm-block {
+    display: block !important;
+  }
   .background-white {
     padding: 55px 0px 0px;
   }
