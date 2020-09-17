@@ -979,6 +979,7 @@ section {
     /* grid-gap: 20px; */
     justify-content: center;
     margin-bottom: 10px;
+    padding: 0 15px;
   }
   .spaceleft {
     margin-left: 10px;
@@ -988,6 +989,9 @@ section {
   }
   .m20 {
     margin-bottom: 20px;
+  }
+  .m40 {
+    margin-bottom: 40px;
   }
   .contentThird-xm .col {
     padding: 0;
@@ -1041,10 +1045,10 @@ section {
     padding: 0px 30px;
   }
   .top-w-deal {
-    padding-bottom: 75px;
+    padding-bottom: 20px;
   }
   .top-w-deal .row {
-    grid-gap: 40px 20px;
+    grid-gap: 0;
     padding: 0px 20px;
   }
   .top-w-deal .col {
