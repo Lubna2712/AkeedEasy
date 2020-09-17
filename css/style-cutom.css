@@ -986,6 +986,9 @@ section {
   .spaceright {
     margin-right: 10px;
   }
+  .m20 {
+    margin-bottom: 20px;
+  }
   .contentThird-xm .col {
     padding: 0;
     margin-bottom: 10px !important;
@@ -997,6 +1000,9 @@ section {
   }
   section {
     padding: 75px 0;
+  }
+  section.deep-dive-section {
+    padding: 0;
   }
   .main-header.hea2 {
     margin: 0 auto 30px !important;
@@ -1018,14 +1024,16 @@ section {
   .partenerships > p {
     display: flex;
     flex-wrap: wrap;
-    grid-gap: 15px;
+    grid-gap: 0px;
     justify-content: center;
     margin-bottom: 0;
   }
   .partenerships img {
     width: calc(50% - 15px) !important;
   }
-
+  .partenerships > p:nth-child(2) {
+    margin-top: 0px;
+  }
   .deep-dive-section {
     padding-bottom: 0;
   }
