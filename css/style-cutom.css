@@ -822,11 +822,11 @@ section {
   .d-smx-block {
     display: block !important;
   }
-  .first-header .navbar .container .collapse .navbar-nav .nav-item {
+  .first-header .navbar-nav .nav-item {
     padding-bottom: 18px;
     padding-top: 0px;
   }
-  .first-header nav .container .collapse ul {
+  .first-header ul {
     padding: 15px;
   }
   .first-header
