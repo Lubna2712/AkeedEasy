@@ -976,14 +976,19 @@ section {
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
-    grid-gap: 20px;
+    /* grid-gap: 20px; */
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
-
+  .spaceleft {
+    margin-left: 10px;
+  }
+  .spaceright {
+    margin-right: 10px;
+  }
   .contentThird-xm .col {
     padding: 0;
-    margin-bottom: 0px !important;
+    margin-bottom: 10px !important;
     min-width: calc(50% - 15px) !important;
   }
 
