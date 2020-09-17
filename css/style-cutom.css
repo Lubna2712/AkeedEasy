@@ -640,17 +640,20 @@ section {
 }
 
 .top-w-deal .row {
-  grid-gap: 60px 30px;
+  justify-content: space-between;
 }
 
 .top-w-deal .col {
-  min-width: calc(25% - 30px);
-  display: flex;
-  flex-direction: column;
-  justify-content: stretch;
-  height: 100%;
-  min-height: 250px;
-  padding: 0;
+  max-width: calc(25% - 30px);
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    height: 100%;
+    min-height: 250px;
+    padding: 0;
+    width: 100%;
+    min-width: calc(25% - 30px);
+    margin-bottom: 60px;
 }
 
 .top-w-deal-body {
@@ -1048,12 +1051,14 @@ section {
     padding-bottom: 20px;
   }
   .top-w-deal .row {
-    grid-gap: 0;
     padding: 0px 20px;
   }
   .top-w-deal .col {
-    min-width: calc(50% - 30px);
+    min-width: calc(50% - 10px);
     min-height: 278px;
+    max-width: calc(50% - 10px);
+    width: 100%;
+    margin-bottom: 40px;
   }
   .top-w-deal-body {
     padding: 0 15px;
