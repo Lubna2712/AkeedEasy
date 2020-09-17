@@ -1056,9 +1056,6 @@ section {
   .top-w-deal .col {
     min-width: calc(50% - 10px);
     min-height: 278px;
-    max-width: calc(50% - 10px);
-    width: 100%;
-    margin-bottom: 40px;
   }
   .top-w-deal-body {
     padding: 0 15px;
